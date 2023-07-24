@@ -1,0 +1,115 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+}
+
+nav ul#menu{
+	/* background-color: #732002; */
+	background-color: RGBa(0,0,0,0.7);
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	width: 100%;
+	text-align: right;
+}
+
+nav li{
+	display: inline;
+	line-height: 60px;
+}
+
+#menu a:link, a:visited{
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 22px;
+	color: #BF9004;
+	font-weight: 600;
+}
+
+#menu a:hover, a:active{
+	background-color: #A6530A;
+	color: #000;
+}
+
+#banner{
+	background-image:  url("../images/1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+
+#about{
+	background-color: #667302;
+	width: 100%;
+	height: 100vh;
+	font-size: 2.0em;
+}
+
+#about p{
+	padding: 0 50px;
+}
+
+h1{
+	margin: 0;
+	padding: 100px 50px 50px 50px;
+	text-align: center;
+}
+
+#gallery{
+	background-color: #BF9004;
+	width: 100%;
+	height: 100vh;
+	font-size: 2.0em;
+	text-align: center;
+}
+
+.galeria{
+	width: 350px;
+	height: 200px;
+	margin: 30px;
+	border-radius: 10px;
+	border: 2px solid #FFF;
+	box-shadow: 5px 5px 25px #000;
+}
+
+#contact{
+	background-color: #2E4159;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	font-size: 2.0em;
+	color: #FFF;
+}
+
+#contact label{
+	display: block;
+	margin-top: 20px;
+}
+
+#contact input, textarea{
+	width: 400px;
+	font-size: 0.9em;
+	padding: 6px;
+	border: 0;
+	border-radius:  10px;
+}
+
+#contact button{
+	display: block;
+	margin-top: 20px;
+	background-color: #FFF;
+	border: 0;
+	padding: 20px;
+	font-size: 0.7em;
+	border-radius:  10px;
+	text-transform: uppercase;
+}
+
+#contact button:hover{
+	background-color: #2E4159;
+	color: #FFF;
+	border: 2px solid #FFF;
+}
